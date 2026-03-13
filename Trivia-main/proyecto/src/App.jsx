@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css"
 
 function App() {
   const questions = [
@@ -110,13 +111,13 @@ const styles = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#f4f6f9",
+    backgroundColor: "#82b4fe",
     fontFamily: "Arial",
     padding: "20px",
     textAlign: "center",
   },
   card: {
-    backgroundColor: "white",
+    backgroundColor: "#124ba5",
     padding: "30px",
     borderRadius: "10px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
@@ -130,7 +131,7 @@ const styles = {
     padding: "10px",
     borderRadius: "5px",
     border: "none",
-    backgroundColor: "#4CAF50",
+    backgroundColor: "#4cafaf",
     color: "white",
     cursor: "pointer",
     fontSize: "16px",
